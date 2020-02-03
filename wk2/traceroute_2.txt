@@ -1,0 +1,38 @@
+101148080@CLC406IT26 MINGW64 ~
+$ tracert nba.com
+
+Tracing route to nba.com [18.191.54.162]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  10.10.105.251
+  2    <1 ms    <1 ms    <1 ms  198.96.85.3
+  3     1 ms     1 ms     1 ms  ut-hub-gbrownc-if-re.gtanet.ca [205.211.94.169]
+  4     1 ms     1 ms     1 ms  66.97.23.57
+  5     2 ms     1 ms     1 ms  66.97.16.22
+  6    <1 ms    <1 ms    <1 ms  amazon-a.ip4.torontointernetxchange.net [206.108.35.36]
+  7     1 ms     1 ms     1 ms  52.93.3.36
+  8    <1 ms     1 ms     1 ms  52.93.3.49
+  9    19 ms    19 ms    19 ms  54.239.43.188
+ 10    19 ms    19 ms    19 ms  52.93.129.164
+ 11     *        *        *     Request timed out.
+ 12    19 ms    19 ms    19 ms  52.95.1.150
+ 13    18 ms    18 ms    18 ms  52.95.1.165
+ 14    24 ms    22 ms    18 ms  52.95.1.192
+ 15    19 ms    19 ms    19 ms  52.95.1.169
+ 16    18 ms    18 ms    18 ms  52.95.3.138
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.

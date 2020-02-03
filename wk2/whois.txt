@@ -1,0 +1,233 @@
+NetRange:       72.246.0.0 - 72.247.255.255
+CIDR:           72.246.0.0/15
+NetName:        AKAMAI-ARIN-1
+NetHandle:      NET-72-246-0-0-1
+Parent:         NET72 (NET-72-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:
+Organization:   Akamai Technologies, Inc. (AKAMAI)
+RegDate:        2005-03-14
+Updated:        2017-12-22
+Ref:            https://rdap.arin.net/registry/ip/72.246.0.0
+
+
+OrgName:        Akamai Technologies, Inc.
+OrgId:          AKAMAI
+Address:        150 Broadway
+City:           Cambridge
+StateProv:      MA
+PostalCode:     02142
+Country:        US
+RegDate:        1999-01-21
+Updated:        2019-05-29
+Ref:            https://rdap.arin.net/registry/entity/AKAMAI
+
+
+OrgTechHandle: IPADM11-ARIN
+OrgTechName:   ipadmin
+OrgTechPhone:  +1-617-444-0017
+OrgTechEmail:  ip-admin@akamai.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/IPADM11-ARIN
+
+OrgTechHandle: YKS-ARIN
+OrgTechName:   Yeung, Kam Sze
+OrgTechPhone:  +852-22718527
+OrgTechEmail:  ip-admin@akamai.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/YKS-ARIN
+
+OrgTechHandle: SJS98-ARIN
+OrgTechName:   Schecter, Steven Jay
+OrgTechPhone:  +1-617-274-7134
+OrgTechEmail:  ip-admin@akamai.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/SJS98-ARIN
+
+OrgAbuseHandle: NUS-ARIN
+OrgAbuseName:   NOC United States
+OrgAbusePhone:  +1-617-444-2535
+OrgAbuseEmail:  abuse@akamai.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/NUS-ARIN
+
+NetRange:       173.231.128.0 - 173.231.191.255
+CIDR:           173.231.128.0/18
+NetName:        VOXEL-NET-9
+NetHandle:      NET-173-231-128-0-1
+Parent:         NET173 (NET-173-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS29791
+Organization:   Internap Corporation (IC-1425)
+RegDate:        2010-03-22
+Updated:        2018-12-04
+Ref:            https://rdap.arin.net/registry/ip/173.231.128.0
+
+
+OrgName:        Internap Corporation
+OrgId:          IC-1425
+Address:        250 Williams Street
+Address:        Suite E100
+City:           Atlanta
+StateProv:      GA
+PostalCode:     30303
+Country:        US
+RegDate:        2018-11-09
+Updated:        2018-12-03
+Ref:            https://rdap.arin.net/registry/entity/IC-1425
+
+
+OrgAbuseHandle: INO3-ARIN
+OrgAbuseName:   INAP NOC
+OrgAbusePhone:  +1-404-475-0520
+OrgAbuseEmail:  noc@inap.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/INO3-ARIN
+
+OrgNOCHandle: INO3-ARIN
+OrgNOCName:   INAP NOC
+OrgNOCPhone:  +1-404-475-0520
+OrgNOCEmail:  noc@inap.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/INO3-ARIN
+
+OrgTechHandle: INO3-ARIN
+OrgTechName:   INAP NOC
+OrgTechPhone:  +1-404-475-0520
+OrgTechEmail:  noc@inap.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/INO3-ARIN
+
+RAbuseHandle: VOXEL1-ARIN
+RAbuseName:   Voxel-Abuse
+RAbusePhone:  +1-877-843-4662
+RAbuseEmail:  abuse@voxel.net
+RAbuseRef:    https://rdap.arin.net/registry/entity/VOXEL1-ARIN
+
+NetRange:       74.125.0.0 - 74.125.255.255
+CIDR:           74.125.0.0/16
+NetName:        GOOGLE
+NetHandle:      NET-74-125-0-0-1
+Parent:         NET74 (NET-74-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:
+Organization:   Google LLC (GOGL)
+RegDate:        2007-03-13
+Updated:        2012-02-24
+Ref:            https://rdap.arin.net/registry/ip/74.125.0.0
+
+
+
+OrgName:        Google LLC
+OrgId:          GOGL
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+PostalCode:     94043
+Country:        US
+RegDate:        2000-03-30
+Updated:        2019-10-31
+Comment:        Please note that the recommended way to file abuse complaints are located in the following links.
+Comment:
+Comment:        To report abuse and illegal activity: https://www.google.com/contact/
+Comment:
+Comment:        For legal requests: http://support.google.com/legal
+Comment:
+Comment:        Regards,
+Comment:        The Google Team
+Ref:            https://rdap.arin.net/registry/entity/GOGL
+
+
+OrgTechHandle: ZG39-ARIN
+OrgTechName:   Google LLC
+OrgTechPhone:  +1-650-253-0000
+OrgTechEmail:  arin-contact@google.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/ZG39-ARIN
+
+OrgAbuseHandle: ABUSE5250-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-650-253-0000
+OrgAbuseEmail:  network-abuse@google.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5250-ARIN
+
+NetRange:       74.125.0.0 - 74.125.255.255
+CIDR:           74.125.0.0/16
+NetName:        GOOGLE
+NetHandle:      NET-74-125-0-0-1
+Parent:         NET74 (NET-74-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:
+Organization:   Google LLC (GOGL)
+RegDate:        2007-03-13
+Updated:        2012-02-24
+Ref:            https://rdap.arin.net/registry/ip/74.125.0.0
+
+
+
+OrgName:        Google LLC
+OrgId:          GOGL
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+PostalCode:     94043
+Country:        US
+RegDate:        2000-03-30
+Updated:        2019-10-31
+Comment:        Please note that the recommended way to file abuse complaints are located in the following links.
+Comment:
+Comment:        To report abuse and illegal activity: https://www.google.com/contact/
+Comment:
+Comment:        For legal requests: http://support.google.com/legal
+Comment:
+Comment:        Regards,
+Comment:        The Google Team
+Ref:            https://rdap.arin.net/registry/entity/GOGL
+
+
+OrgTechHandle: ZG39-ARIN
+OrgTechName:   Google LLC
+OrgTechPhone:  +1-650-253-0000
+OrgTechEmail:  arin-contact@google.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/ZG39-ARIN
+
+OrgAbuseHandle: ABUSE5250-ARIN
+OrgAbuseName:   Abuse
+OrgAbusePhone:  +1-650-253-0000
+OrgAbuseEmail:  network-abuse@google.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5250-ARIN
+NetRange:       98.136.0.0 - 98.139.255.255
+CIDR:           98.136.0.0/14
+NetName:        A-YAHOO-US9
+NetHandle:      NET-98-136-0-0-1
+Parent:         NET98 (NET-98-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS10310
+Organization:   Oath Holdings Inc. (OH-207)
+RegDate:        2007-12-07
+Updated:        2019-05-01
+Ref:            https://rdap.arin.net/registry/ip/98.136.0.0
+
+
+OrgName:        Oath Holdings Inc.
+OrgId:          OH-207
+Address:        770 BROADWAY FL 4
+City:           New York
+StateProv:      NY
+PostalCode:     10003-9558
+Country:        US
+RegDate:        2018-12-21
+Updated:        2019-05-16
+Ref:            https://rdap.arin.net/registry/entity/OH-207
+
+
+OrgNOCHandle: OATHN-ARIN
+OrgNOCName:   Oath NOC
+OrgNOCPhone:  +1-408-349-5555
+OrgNOCEmail:  rir-noc@oath.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/OATHN-ARIN
+
+OrgTechHandle: OTC2-ARIN
+OrgTechName:   Oath Tech Contact
+OrgTechPhone:  +1-408-349-5555
+OrgTechEmail:  rir-tech@oath.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/OTC2-ARIN
+
+OrgAbuseHandle: OATHA-ARIN
+OrgAbuseName:   Oath Abuse
+OrgAbusePhone:  +1-408-349-3300
+OrgAbuseEmail:  rir-abuse@oath.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/OATHA-ARIN
+

@@ -1,0 +1,13 @@
+101148080@CLC406IT26 MINGW64 ~
+$ ping voice.com
+
+Pinging voice.com [192.124.249.157] with 32 bytes of data:
+Reply from 192.124.249.157: bytes=32 time=16ms TTL=53
+Reply from 192.124.249.157: bytes=32 time=16ms TTL=53
+Reply from 192.124.249.157: bytes=32 time=16ms TTL=53
+Reply from 192.124.249.157: bytes=32 time=16ms TTL=53
+
+Ping statistics for 192.124.249.157:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 16ms, Maximum = 16ms, Average = 16ms

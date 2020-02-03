@@ -1,0 +1,10 @@
+• What is the definition of server port?
+A serial port server, also called a serial server or port redirector, is a device that transfers data between a computer serialport (COM port) and an Ethernet local area network ( LAN ). 
+
+• What is server port range? 
+The port numbers in the range from 0 to 1023 (0 to 2 10 − 1) are the well-known ports or system ports. They are used by system processes that provide widely used types of network services.
+
+• How many bits does number above represent? 
+1
+• State 10 common server ports 
+80-89
