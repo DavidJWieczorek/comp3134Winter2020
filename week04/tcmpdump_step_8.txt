@@ -1,0 +1,8 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -n -i eth0 -c 2
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:24:46.501034 IP 138.197.156.199.22 > 198.96.85.104.56449: Flags [P.], seq 1420972570:1420972698, ack 1851549708, win 513, length 128
+16:24:46.501167 IP 138.197.156.199.22 > 198.96.85.104.56449: Flags [P.], seq 128:192, ack 1, win 513, length 64
+2 packets captured
+10 packets received by filter
+1 packet dropped by kernel

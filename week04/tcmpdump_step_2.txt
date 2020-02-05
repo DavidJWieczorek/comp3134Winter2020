@@ -1,0 +1,11 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:21:04.141169 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 1414191146:1414191274, ack 1851528860, win 513, length 128
+16:21:04.141274 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 128:192, ack 1, win 513, length 64
+16:21:04.141371 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 192:320, ack 1, win 513, length 128
+16:21:04.141444 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 320:384, ack 1, win 513, length 64
+16:21:04.142648 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 384, win 8191, length 0
+5 packets captured
+16 packets received by filter
+4 packets dropped by kernel

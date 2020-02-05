@@ -1,0 +1,28 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0 -c 2
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:23:25.569673 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 1419139658:1419139786, ack 1851544828, win 513, length 128
+        0x0000:  fe00 0000 0101 4e7c 8860 dc9b 0800 4510  ......N|.`....E.
+        0x0010:  00a8 9041 4000 4006 66a9 8ac5 9cc7 c660  ...A@.@.f......`
+        0x0020:  5568 0016 dc81 5496 5a4a 6e5c 54fc 5018  Uh....T.ZJn\T.P.
+        0x0030:  0201 43f0 0000 c1a7 7703 9085 2202 7d1a  ..C.....w...".}.
+        0x0040:  3685 4b8e a581 e361 6340 42dd 6d83 f712  6.K....ac@B.m...
+        0x0050:  b3d1 86cb af4e a6cb 54f0 0070 7815 6ea4  .....N..T..px.n.
+        0x0060:  8804 8889 abf5 121c 829c a470 4aa8 05df  ...........pJ...
+        0x0070:  8f36 5a0d 816f 2d4b 36b8 a8f0 3d8e bab2  .6Z..o-K6...=...
+        0x0080:  b60c b441 6a6b ae03 ae39 151d f3ef f436  ...Ajk...9.....6
+        0x0090:  3ba5 ec75 d2d1 6bc6 45ac 8d35 5705 fafe  ;..u..k.E..5W...
+        0x00a0:  8695 9dea 95b8 f79c 1a07 eaec a445 8d31  .............E.1
+        0x00b0:  c1dc fc36 b006                           ...6..
+16:23:25.569843 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 128:192, ack 1, win 513, length 64
+        0x0000:  fe00 0000 0101 4e7c 8860 dc9b 0800 4510  ......N|.`....E.
+        0x0010:  0068 9042 4000 4006 66e8 8ac5 9cc7 c660  .h.B@.@.f......`
+        0x0020:  5568 0016 dc81 5496 5aca 6e5c 54fc 5018  Uh....T.Z.n\T.P.
+        0x0030:  0201 43b0 0000 c9b6 7434 1f6a c0a6 ea41  ..C.....t4.j...A
+        0x0040:  b459 af4d c250 e6fb a8eb dfb4 7481 2636  .Y.M.P......t.&6
+        0x0050:  20ea be16 5e5a b323 6d2f 93f3 9988 d6b5  ....^Z.#m/......
+        0x0060:  0e12 ce86 ec76 10e8 ebee 9c14 ec98 d109  .....v..........
+        0x0070:  1b73 df0a cede                           .s....
+2 packets captured
+54 packets received by filter
+46 packets dropped by kernel

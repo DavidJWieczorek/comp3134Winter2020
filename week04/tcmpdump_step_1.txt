@@ -1,0 +1,101 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+...
+16:19:57.449301 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2026896:2027200, ack 15201, win 513, length 304
+16:19:57.449405 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2027200:2027392, ack 15201, win 513, length 192
+16:19:57.449467 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2025904, win 8191, length 0
+16:19:57.449556 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2027392:2027696, ack 15201, win 513, length 304
+16:19:57.449653 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2027696:2027888, ack 15201, win 513, length 192
+16:19:57.449751 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2027888:2028080, ack 15201, win 513, length 192
+16:19:57.449786 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2026704, win 8188, length 0
+16:19:57.449861 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2026896, win 8193, length 0
+16:19:57.449957 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2028080:2028496, ack 15201, win 513, length 416
+16:19:57.450071 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2027392, win 8191, length 0
+16:19:57.450159 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2028496:2028800, ack 15201, win 513, length 304
+16:19:57.450244 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2028800:2028992, ack 15201, win 513, length 192
+16:19:57.450283 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2027888, win 8189, length 0
+16:19:57.450372 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2028992:2029296, ack 15201, win 513, length 304
+16:19:57.450453 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2029296:2029488, ack 15201, win 513, length 192
+16:19:57.450526 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2029488:2029680, ack 15201, win 513, length 192
+16:19:57.450597 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2029680:2029872, ack 15201, win 513, length 192
+16:19:57.450635 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2028496, win 8193, length 0
+16:19:57.450740 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2029872:2030176, ack 15201, win 513, length 304
+16:19:57.450841 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2030176:2030368, ack 15201, win 513, length 192
+16:19:57.450917 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2030368:2030560, ack 15201, win 513, length 192
+16:19:57.450975 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2028992, win 8191, length 0
+16:19:57.451021 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2030560:2030752, ack 15201, win 513, length 192
+16:19:57.451114 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2030752:2031056, ack 15201, win 513, length 304
+16:19:57.451151 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2029680, win 8189, length 0
+16:19:57.451221 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2029872, win 8188, length 0
+16:19:57.451300 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2031056:2031472, ack 15201, win 513, length 416
+16:19:57.451380 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2031472:2031664, ack 15201, win 513, length 192
+16:19:57.451467 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2030368, win 8193, length 0
+16:19:57.451477 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2031664:2031856, ack 15201, win 513, length 192
+16:19:57.451571 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2031856:2032160, ack 15201, win 513, length 304
+16:19:57.451650 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2032160:2032352, ack 15201, win 513, length 192
+16:19:57.451728 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2031056, win 8191, length 0
+16:19:57.451784 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2032352:2032544, ack 15201, win 513, length 192
+16:19:57.451867 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2032544:2032848, ack 15201, win 513, length 304
+16:19:57.451893 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2031472, win 8189, length 0
+16:19:57.451984 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2032848:2033152, ack 15201, win 513, length 304
+16:19:57.452063 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2033152:2033344, ack 15201, win 513, length 192
+16:19:57.452116 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2031856, win 8193, length 0
+16:19:57.452297 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2033344:2033648, ack 15201, win 513, length 304
+16:19:57.452313 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2032352, win 8191, length 0
+16:19:57.452413 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2033648:2033952, ack 15201, win 513, length 304
+16:19:57.452517 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2033952:2034144, ack 15201, win 513, length 192
+16:19:57.452603 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2034144:2034336, ack 15201, win 513, length 192
+16:19:57.452616 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2032848, win 8189, length 0
+16:19:57.452712 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2034336:2034640, ack 15201, win 513, length 304
+16:19:57.452735 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2033344, win 8193, length 0
+16:19:57.452827 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2034640:2034944, ack 15201, win 513, length 304
+16:19:57.452906 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2034944:2035136, ack 15201, win 513, length 192
+16:19:57.452978 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2035136:2035328, ack 15201, win 513, length 192
+16:19:57.453051 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2035328:2035520, ack 15201, win 513, length 192
+16:19:57.453119 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2033952, win 8191, length 0
+16:19:57.453209 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2035520:2035824, ack 15201, win 513, length 304
+16:19:57.453290 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2034336, win 8189, length 0
+16:19:57.453351 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2035824:2036016, ack 15201, win 513, length 192
+16:19:57.453424 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2036016:2036192, ack 15201, win 513, length 176
+16:19:57.453454 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2036192:2036384, ack 15201, win 513, length 192
+16:19:57.453539 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2036384:2036720, ack 15201, win 513, length 336
+16:19:57.453613 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2036720:2036912, ack 15201, win 513, length 192
+16:19:57.453649 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2035136, win 8193, length 0
+16:19:57.453708 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2035328, win 8193, length 0
+16:19:57.453783 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2036912:2037328, ack 15201, win 513, length 416
+16:19:57.453879 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2037328:2037520, ack 15201, win 513, length 192
+16:19:57.453966 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2035824, win 8191, length 0
+16:19:57.454041 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2037520:2037712, ack 15201, win 513, length 192
+16:19:57.454114 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2037712:2037888, ack 15201, win 513, length 176
+16:19:57.454184 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2037888:2038080, ack 15201, win 513, length 192
+16:19:57.454239 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2036384, win 8188, length 0
+16:19:57.454288 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2036912, win 8193, length 0
+16:19:57.454354 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2038080:2038272, ack 15201, win 513, length 192
+16:19:57.454428 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2038272:2038688, ack 15201, win 513, length 416
+16:19:57.454454 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2037328, win 8192, length 0
+16:19:57.454535 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2038688:2038880, ack 15201, win 513, length 192
+16:19:57.454571 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2038880:2039184, ack 15201, win 513, length 304
+16:19:57.454653 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2039184:2039520, ack 15201, win 513, length 336
+16:19:57.454736 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2037712, win 8190, length 0
+16:19:57.454782 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2039520:2039712, ack 15201, win 513, length 192
+16:19:57.454879 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2039712:2040016, ack 15201, win 513, length 304
+16:19:57.454964 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2040016:2040208, ack 15201, win 513, length 192
+16:19:57.454976 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2038080, win 8189, length 0
+16:19:57.455071 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2040208:2040512, ack 15201, win 513, length 304
+16:19:57.455147 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2040512:2040704, ack 15201, win 513, length 192
+16:19:57.455222 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2040704:2040896, ack 15201, win 513, length 192
+16:19:57.455296 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2039184, win 8193, length 0
+16:19:57.455356 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2040896:2041088, ack 15201, win 513, length 192
+16:19:57.455431 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2041088:2041264, ack 15201, win 513, length 176
+16:19:57.455500 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2041264:2041456, ack 15201, win 513, length 192
+16:19:57.455570 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2041456:2041648, ack 15201, win 513, length 192
+16:19:57.455617 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2040016, win 8190, length 0
+16:19:57.455676 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2040208, win 8189, length 0
+16:19:57.455737 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.104.56449: Flags [P.], seq 2041648:2041840, ack 15201, win 513, length 192
+16:19:57.455887 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 15201:15297, ack 2040512, win 8188, length 96
+16:19:57.455905 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 15297:15361, ack 2040512, win 8188, length 64
+16:19:57.455910 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2040704, win 8193, length 0
+16:19:57.455942 IP 198.96.85.104.56449 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2040896, win 8193, length 0
+^C
+12349 packets captured
+12400 packets received by filter
+46 packets dropped by kernel
