@@ -1,0 +1,5 @@
+answer:-
+
+htmlentities() = just converts the tags to plain text and then displays it in the browser.
+
+strip_tags() = removes all the tags from the string. 

@@ -1,0 +1,7 @@
+1. The definition of the word is displayed on the page.
+
+2. The word which that was typed was "stoopid" and the webpage displayed a "No results found for stoopid" result
+
+3. The webpage searched other categories in the "dictionary.com" website for other results.
+
+4. same as above
