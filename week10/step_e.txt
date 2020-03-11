@@ -1,0 +1,3 @@
+We can get the  path the user requested using the basename() function which returns only the filename part of a given path/filename: which means basename("../../../etc/passwd") will become: passwd, then check if the directory exists using the (file_exists) method.
+
+

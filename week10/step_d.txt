@@ -1,0 +1,2 @@
+- it takes hello as a paramater and shows inside the hello directory
+- dont see any
