@@ -1,21 +1,21 @@
 <?php
 
-echo '<h1>This is an example of an H1 header tag</h1>';
-# Created by John Smith with employee id: 123456
+<h1>This is an example of an H1 header tag</h1>
+<!-- Created by John Smith with employee id: 123456 -->
 
-echo '<h2>Admin panel information</h2>';
-# The password for admin panel is: 123456
+<h2>This is an example of more information</h2>
+<!-- The password for admin panel is: 234567  -->
 
-echo '<h3>Hours worked on my project</h3>';
-# Useless project took 30 hours of my week
+<h3>How many more days until easter</h3>
+<!-- The only way to know is to look at the calendar -->
 
-echo '<h4>Project description</h4>';
-# I copy pasted all the code from stackoverflow :P
+<h4>This is the only way to code</h4>
+<!-- The only backend viable languages now are python and node.js :P -->
 
-echo '<h5>Exam content</h5>';
-# To be honest I haven't learned anything
+<h5>I have 5 more weeks left</h5>
+<!-- I am looking forward to getting a job -->
 
-echo '<h6>Browser displaying page</h6>'
-# Will this display in the browser?
+<h6>I actually like back end more then front end</h6>
+<!-- The only question is do you go front end or do you go backend -->
 
 ?>
