@@ -1,0 +1,2 @@
+The text file has a script that redirects the page to another file inside the server.
+An attacker could exploit this by adding a text file into the server to access other files in that folder.
