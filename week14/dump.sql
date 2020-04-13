@@ -42,11 +42,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `firstname`, `lastname`, `active`) VALUES
-(1, 'jackman', 'jackman@gmail.com', 'Jack', 'Pride', 1),
-(2, 'estey99', 'estey9909@gmail.com', 'Esteban', 'Lom', 0),
-(3, 'rupy', 'rupy@gmail.com', 'Robert', 'Hence', 0),
-(4, 'rickgrimes', 'rickgrimes@gmail.com', 'Rick', 'Grimes', 1),
-(5, 'judithtwd', 'judithtwd@gmail.com', 'Judith', 'Zombie', 1),
+(1, 'Miller', 'AmyMiller@gmail.com', 'Amy', 'Miller', 3),
+(2, 'John', 'John@gmail.com', 'John', 'John', 0),
+(3, 'mountain', 'mountain@gmail.com', 'Andrew', 'Whirler', 0),
+(4, 'ravishing', 'ravishing@gmail.com', 'Ravishing', 'Rude', 1),
+(5, 'jewelry', 'jewelery@gmail.com', 'Jewelry', 'J', 1),
 (6, 'prof', 'theonlyprof@gmail.com', 'Ben', 'Prof', 1);
 
 --
