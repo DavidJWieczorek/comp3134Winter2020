@@ -1,0 +1,7 @@
+1. The script queries an exact value and returns all the column values for that row.
+   
+2. The query returns the values as though the names were passed normally. The extra characters didnt effect the search at all. 
+   There was no difference from the first point since the single quote closed the query string and ignored the rest.
+
+3. My expectation was that the query would return all the rows in the table. However, this was not the case since I have single quotes 
+   around the varible inside the php script. 
