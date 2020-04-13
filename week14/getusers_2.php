@@ -55,7 +55,7 @@
                         echo "<td>".$row["firstname"]."</td>";
                         echo "<td>".$row["lastname"]."</td>";
                         echo "<td>".$row["active"]."</td>";
-                        echo "</tr>";                   //echo "id: " . $row["user_id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+                        echo "</tr>";                   
                     }
                 }
                 $conn->close();
