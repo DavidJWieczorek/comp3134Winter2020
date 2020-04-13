@@ -10,9 +10,3 @@ if ( file_exists( $path ) && is_dir( $path ) ) {
     print "</pre>";
 }
 
-//BONUS
-// if (strpos($_GET['q'],".") !== false){
-//     header("HTTP/1.0 403 Forbidden",true);
-// }
-
-?>
